@@ -582,7 +582,7 @@ body {
 /* Mobile responsive styles for carousels */
 @media (max-width: 767px) {
     .hero-top {
-        margin-top: -2rem;
+        margin-top: -1rem;
         margin-bottom: 1.5rem;
     }
     
