@@ -35,12 +35,6 @@ export function useActiveSection() {
 
         const observer = new IntersectionObserver(
             entries => {
-                console.log('Intersection entries:', entries.map(entry => ({
-                    id: entry.target.id,
-                    isIntersecting: entry.isIntersecting,
-                    intersectionRatio: entry.intersectionRatio
-                })))
-
                 // Find the section with the highest intersection ratio
                 let maxRatio = 0
                 let activeEntry = null
@@ -53,7 +47,6 @@ export function useActiveSection() {
                 })
 
                 if (activeEntry && activeEntry.intersectionRatio > 0.1) {
-                    console.log('Setting active section to:', activeEntry.target.id, 'with ratio:', activeEntry.intersectionRatio)
                     setActiveSection(activeEntry.target.id)
                 }
             },
@@ -61,7 +54,6 @@ export function useActiveSection() {
         )
 
         const sections = document.querySelectorAll('section[id]')
-        console.log('Found sections:', Array.from(sections).map(section => section.id))
         sections.forEach(section => {
             observer.observe(section)
         })
