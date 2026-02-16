@@ -62,7 +62,7 @@ export default function HeroAboutTransition() {
                                 Hey, I’m a Full-Stack Developer who enjoys turning ideas into interactive, scalable web experiences. I’m currently a final-year student with hands-on experience from internships, where I worked across both frontend and backend systems. I like solving real problems, optimizing performance, and creating smooth user experiences. Whether it's a sleek frontend animation or a well-structured API, I aim for systems that feel effortless (even if they weren’t).
                             </p>
                             <p>
-                                Outside of coding, you’ll probably find me stargazing, experimenting with photography, reading about psychology, or diving into a good book. I’m fascinated by how both the universe and the human mind work, which probably explains why I love building things that connect people and ideas.
+                                Outside of coding, you’ll probably find me stargazing (duh!), experimenting with photography, reading about psychology, or diving into a good book. I’m fascinated by how both the universe and the human mind work, which probably explains why I love building things that connect people and ideas.
                             </p>
                             <p>
                                 Always learning. Always building. Occasionally debugging at 2AM.
