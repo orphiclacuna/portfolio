@@ -26,7 +26,7 @@ export default function HeroAboutTransition() {
         return unsubscribe
     }, [headingOpacity])
 
-    const phrases = ['Web Developer', 'Software Developer', 'Problem Solver']
+    const phrases = ['Web Developer', 'Software Developer', 'Quick Learner', 'Problem Solver']
     const intro = "Hi, I'm "
     const name = "Anushka"
 
